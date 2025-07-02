@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock GAG - HangGTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Thema -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="toggle-theme" />
+      <span class="slider"><span class="icon" id="theme-icon">🌙</span></span>
+    </label>
+  </div>
+
+  <header>
+    <h1> Stock Grow A Garden - 1ce1cey     (Refresh Site because the stock doesnt auto update) </h1>
+    <p>Powered by <strong>Hang-GTS</strong></p>
+    <div class="controls">
+      <input type="text" id="search" placeholder="🔍 Cari item..." />
+    </div>
+    <div class="filter-buttons">
+      <button data-category="all" class="active">All</button>
+      <button data-category="cosmetics">Cosmetics</button>
+      <button data-category="egg">Egg</button>
+      <button data-category="gear">Gear</button>
+      <button data-category="event">Event</button>
+      <button data-category="seed">Seed</button>
+    </div>
+  </header>
+
+  <div id="loader" class="loader">🔄 Memuat data...</div>
+  <main id="inventory-container"></main>
+
+  <footer>
+    <p>&copy; ~ 2025 Hang-GTS </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
